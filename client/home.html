@@ -1,0 +1,14 @@
+<body>
+  {{> home }}
+</body>
+
+<template name="home">
+  <p>Change will fire for all inputs because the have "keyup, paste"</p>
+  <input type="text" id="inputOne">
+  <input type="text" id="inputTwo">
+
+  <p>Change will fire for one input because the have separate keyup and paste events</p>
+  <p>(Input One and Two will also fire though)</p>
+  <input type="text" id="inputThree">
+  <input type="text" id="inputFour">
+</template>

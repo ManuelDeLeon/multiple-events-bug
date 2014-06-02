@@ -1,0 +1,6 @@
+.meteor/local
+.git
+.build
+packages
+multiple-events-bug.iml
+.idea
